@@ -1,0 +1,23 @@
+﻿REACTMINIBOILER eli React Minimal Boilerplate
+
+Kansiot
+-src: React-sovelluksen lähdekoodit eli source
+-dist: julkaistava React-sovellus eli distributable
+-styles: ulkoiset tyylitiedostot
+
+Pakettien asennus
+-Aja projektikansiossa komento 'npm install'
+-Jos dev dependencyt eivät asentuneet, aja vielä 'npm install --only=dev'
+devDependencyjen asentuminen riippuu siitä onko projektissa development vai production -moodi päällä
+
+Serverin käynnistys
+-Aja projektikansiossa komento 'npm start' jolloin webpackin dev-serveri käynnistyy
+-Sovellus toimii osoitteessa http://localhost:8080
+
+Serverin sammutus
+-Paina CTRL-C
+
+Sovelluksen julkaisu
+-Aja projektikansiossa komento 'npm run build', jolloin bundle.js syntyy dist -kansioon.
+-Sovelluksen ajamiseen tarvitaan bundle.js ja index.html ja ne voidaan siirtää mille
+tahansa serverille.

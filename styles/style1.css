@@ -1,0 +1,25 @@
+.option:hover{
+  background-color: #f9f9f9; 
+}
+.addOption{
+  margin-left: 5px;
+}
+.customButton{
+  margin: 5px;
+}
+
+.optionform{
+  margin: 5px;
+}
+
+.labelClass{
+  font-size: 300px;
+}
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  color: black;
+  background-color: #ecf7ff;
+  border: 1px solid #ddd;
+}
+
